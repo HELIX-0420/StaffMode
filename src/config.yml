@@ -1,0 +1,182 @@
+############################################################
+# StaffMode made by Chelsea1124
+#
+# Follow My Twitter to keep up with new projects!.
+# https://twitter.com/chelsea1124HD
+#
+# Sub to my YouTube channel for fun and amazing content!.
+# https://www.youtube.com/chelsea1124HD
+#
+# Join my discord to speak with others and me when im coding!.
+# https://discord.gg/dZtEBAJ
+#
+###########################################################
+
+prefix: "&c&lStaff&f&lMode &7&l>"
+
+freeze:
+  # The item that will be showing as the Freeze in there inventory
+  FreezeItem: 174
+
+  # Name of the freeze item in the staffmode inventory
+  FreezeItemName: "&dFreeze &7(Right Click)"
+
+  # Message sent to the user who frozen the player after they have been frozen
+  PlayerFrozen: "%PREFIX% &a %PLAYER% has been frozen"
+
+  # Message sent to the user who frozen the player after they have been unfrozen
+  PlayerUnFrozen: "%PREFIX% &a %PLAYER% has been unfrozen"
+
+  MessageSentToPlayer:
+  - "&c&m------------------------------"
+  - "&c&mYou have been frozen"
+  - "&c&m------------------------------"
+
+  #This is ware you put the lore of the freeze item in staffmode
+  lore:
+  - "&aPut"
+  - "&dYour"
+  - "&eLore"
+  - "&6Here"
+  - "&2Have as much lines as you want"
+
+mob:
+  # The Monster egg id that you want the player to spawn when in staffmode (Can only be MobEgg ID)
+  MobItem: 54
+
+  # Name of the MobEgg item in the staffmode inventory
+  MobItemName: "&dZombie Egg &7(Right Click)"
+
+  #This is ware you put the lore of the mob item in staffmode
+  lore:
+  - "&aPut"
+  - "&dYour"
+  - "&eLore"
+  - "&6Here"
+  - "&2Have as much lines as you want"
+
+randomteleport:
+  # The item that will be showing as the RandomTeleportItem in there inventory
+  RandomTeleportItem: 381
+
+  # Name of the RandomTeleport item in the staffmode inventory
+  RandomTeleportItemName: "&dRandom Teleport &7(Right Click)"
+
+  #This is ware you put the lore of the randomteleport item in staffmode
+  lore:
+  - "&aPut"
+  - "&dYour"
+  - "&eLore"
+  - "&6Here"
+  - "&2Have as much lines as you want"
+
+  #This will tell the player who they randomly teleported to
+  RandomTpMessage: "&eYou have been teleported to %PLAYER%"
+
+vanish:
+  # The item that will be showing as the VanishOn in there inventory
+  VanishOnItem: 69
+  # The item that will be showing as the VanishOff in there inventory
+  VanishOffItem: 369
+
+  # Name of the Vanish ON item in the staffmode inventory
+  VanishOnItemName: "&dVanish &a&l&nON&r &7(Right Click)"
+
+  # Name of the Vanish OFF item in the staffmode inventory
+  VanishOffItemName: "&dVanish &c&l&nOFF&r &7(Right Click)"
+
+  # This is when they go out of vanish message
+  VanishDisabledMessage: "&7&l(&c!&7&l)&f&lVanish &c&lDisabled"
+  # This is when they go in to vanish message
+  VanishEnabledMessage: "&7&l(&c!&7&l)&f&lVanish &a&lEnabled"
+
+  #This is ware you put the lore of the vanish item in staffmode
+  lore:
+  - "&aPut"
+  - "&dYour"
+  - "&eLore"
+  - "&6Here"
+  - "&2Have as much lines as you want"
+
+inventorypreview:
+  # The item that will be showing as the inventorypreview in there inventory
+  InventoryPreviewItem: 54
+
+  # Name of the InventoryPreview item in the staffmode inventory
+  InventoryPreviewItemName: "&dInventory preview"
+
+  #This is ware you put the lore of the inventorypreview item in staffmode
+  lore:
+  - "&aPut"
+  - "&dYour"
+  - "&eLore"
+  - "&6Here"
+  - "&2Have as much lines as you want"
+
+togglefly:
+  # The item that will be showing as the ToggleFlyOn in there inventory
+  ToggleFlyOnItem: 276
+  # The item that will be showing as the ToggleFlyOff in there inventory
+  ToggleFlyOffItem: 267
+
+  # Name of the ToggleFly item in the staffmode inventory
+  ToggleFlyOnItemName: "&dToggle Fly on &7(Right Click)"
+
+  # Name of the ToggleFly item in the staffmode inventory
+  ToggleFlyOffItemName: "&dToggle Fly off &7(Right Click)"
+
+  #This is ware you put the lore of the togglefly item in staffmode
+  lore:
+  - "&aPut"
+  - "&dYour"
+  - "&eLore"
+  - "&6Here"
+  - "&2Have as much lines as you want"
+
+Staffmode:
+  # Message sent to player/user when they go in to StaffMode
+  Enable: "%PREFIX% you have been put in staffmode!"
+
+  # Message sent to player/user when they go out to StaffMode
+  Disable: "%PREFIX% you have been put out of staffmode!"
+
+  # This allows you to block commands when players/users are in staffmode
+  BlockedCommands:
+  - example1
+  - example2
+  - example3
+
+  # Message sent to player/user when they are in staffmode and they try to use a command that is blocked (PlaceHolders %PREFIX%)
+  BlockedCommandsMessage: "&7&l(&c!&7&l)&cYou cant do that command while in staffmode"
+
+FreezeGUI:
+  RulesItem: 395
+  # This is the name of the Rule item in the Freeze GUI
+  RulesName: "&c&lRules"
+  # This is the lore of the Rule item in the Freeze GUI (Have as much lines as you want)
+  Rules:
+  - "&cPUT RULES HERE"
+  InstructionsItem: 339
+  # This is the name of the Instructions item in the Freeze GUI
+  InstructionsName: "&e&lInstructions"
+  # This is the lore of the Instructions item in the Freeze GUI (Have as much lines as you want)
+  instructions:
+  - "&cPUT INSTRUCTIONS HERE"
+
+staffchat:
+  message: "&7<&cSTAFFCHAT&7> %PLAYER% &7> &e%MSG%"
+
+features:
+  # Enable or Disable people in staffmode to Pick up items
+  PickUpItems: true
+  # Enable or Disable people in staffmode to Drop items
+  DropItems: true
+  # Enable or Disable people in staffmode to Break Blocks
+  BlockBreak: true
+  # Enable or Disable people in staffmode to Move itmes in there inventory
+  InventoryMove: true
+  # Enable or Disable people who are in frozen mode with no GUI on move
+  FreezeGUI: true
+
+No-Perms: "%PREFIX% &cYou cant go in to staffmode"
+no-Perm-staffchat: "%PREFIX% &cYou cant use staffchat"

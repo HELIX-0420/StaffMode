@@ -1,0 +1,15 @@
+name: StaffMode
+description: 1.0
+version: 1.0
+main: me.chelsea1124.staffmode.Main
+author: chelsea1124
+
+commands:
+  StaffMode:
+    description: Strip a player to see if they have auto armor
+    aliases: [staff,adminmode]
+    permission: StaffMode.Allow
+  staffchat:
+    description: Strip a player to see if they have auto armor
+    aliases: [sc,adminchat]
+    permission: StaffMode.Allow
